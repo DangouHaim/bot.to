@@ -1,0 +1,28 @@
+/* basic search form fix */
+.rtl .featured-search[max-width~="1000px"]  .form-group, .featured-search .filter-count-3 .form-group  {
+  margin-right: unset;
+  margin-left: 18px;
+  width: calc(33.3% - 12px);
+}
+
+.rtl .featured-search[max-width~="1000px"]  .form-group:nth-child(3n), .featured-search .filter-count-3 .form-group:nth-child(3n)  {
+  margin-left: 0;
+margin-right: unset;
+}
+
+.rtl .featured-search[max-width~="750px"]  .form-group,  .featured-search .filter-count-2 .form-group {
+  margin-right: unset !important;
+  margin-left: 10px !important;
+  width: calc(50% - 5px);
+}
+
+.rtl .featured-search[max-width~="750px"]  .form-group:nth-child(2n),  .featured-search .filter-count-2 .form-group:nth-child(2n) {
+  margin-right: unset !important;
+  margin-left: 0 !important;
+}
+
+.rtl .featured-search[max-width~="550px"]  .form-group,  .featured-search .filter-count-1 .form-group {
+  margin-right: unset !important;
+  margin-left: 0 !important;
+  width: 100%;
+}

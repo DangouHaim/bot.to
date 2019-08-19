@@ -1,0 +1,276 @@
+# Copyright (C) 2018 YITH WooCommerce Ajax Search
+# This file is distributed under the same license as the YITH WooCommerce Ajax Search package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Ajax Search 1.6.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2018-12-05 12:03:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-04-09 11:40+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg_BG\n"
+
+#: class.yith-wcas-admin.php:135
+msgid "Settings"
+msgstr "Настройки"
+
+#: class.yith-wcas-admin.php:136
+msgid "Premium Version"
+msgstr "Платена версия"
+
+#: class.yith-wcas-admin.php:142 class.yith-wcas-admin.php:143
+msgid "Ajax Search"
+msgstr "Ajax търсене"
+
+#. Plugin Name of the plugin/theme
+#: class.yith-wcas-admin.php:214 plugin-options/settings-options.php:24
+#: plugin-options/settings-options.php:31
+msgid "YITH WooCommerce Ajax Search"
+msgstr "YITH WooCoommerce Ajax търсене"
+
+#: class.yith-wcas-admin.php:228
+msgid "YITH WooCommerce Ajax Search Updated"
+msgstr "YITH WooCommerce Ajax търсене обновено"
+
+#: class.yith-wcas.php:200
+msgid "No results"
+msgstr "Няма открити резултати"
+
+#: init.php:48
+msgid ""
+"You can't activate the free version of YITH WooCommerce Ajax Search while "
+"you are using the premium one."
+msgstr ""
+"Не можете да активирате безплатната версия на YITH WooCommerce Ajax Search, "
+"докато използвате премиум."
+
+#: init.php:112
+msgid ""
+"YITH WooCommerce Ajax Search is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Ajax Search е активирана, но не е ефективна. Това изисква "
+"WooCommerce, за да работи."
+
+#: plugin-options/gutenberg/blocks.php:17
+msgctxt "[gutenberg]: block name"
+msgid "Ajax Search"
+msgstr "Ajax търсене"
+
+#: plugin-options/gutenberg/blocks.php:18
+msgctxt "[gutenberg]: block description"
+msgid "Show Ajax Search Form"
+msgstr "Покажи форма за търсене с Ajax"
+
+#: plugin-options/gutenberg/blocks.php:22
+msgctxt "[gutenberg]: keywords"
+msgid "Ajax Search"
+msgstr "Ajax търсене"
+
+#: plugin-options/gutenberg/blocks.php:23
+msgctxt "[gutenberg]: keywords"
+msgid "Search"
+msgstr "Търсене"
+
+#: plugin-options/settings-options.php:21
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr "Надстройте до PREMIUM Версия"
+
+#: plugin-options/settings-options.php:25
+msgid "Discover the Advanced Features"
+msgstr "Открийте разширените функции"
+
+#: plugin-options/settings-options.php:26
+msgid ""
+"Upgrade to the PREMIUM VERSION\r\n"
+"of YITH WOOCOMMERCE AJAX SEARCH to benefit from all features!"
+msgstr ""
+"Надстройте до PREMIUM Версията \r\n"
+"за търсене на YITH WOOCOMMERCE AJAX за да се възползвате от всички функции!"
+
+#: plugin-options/settings-options.php:33
+msgid "Get Support and Pro Features"
+msgstr "Получете поддръжка и Pro функции"
+
+#: plugin-options/settings-options.php:34
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+"С закупуването на премиум версията на приставката, вие ще се възползвате от "
+"разширените функции на продукта и ще получите една година безплатни "
+"актуализации и поддръжка чрез нашата платформа, която е на разположение "
+"24h / 24."
+
+#: plugin-options/settings-options.php:44
+msgid "General settings"
+msgstr "Основни настройки"
+
+#: plugin-options/settings-options.php:53
+msgid "Search input label"
+msgstr "Въвеждане на търсене етикет"
+
+#: plugin-options/settings-options.php:55
+#: plugin-options/settings-options.php:63
+msgid "Label for Search input field."
+msgstr "Текст в полето за търсене"
+
+#: plugin-options/settings-options.php:57
+msgid "Search for products"
+msgstr "Търсене за продукти"
+
+#: plugin-options/settings-options.php:61
+msgid "Search submit label"
+msgstr "Текст за бутона за търсене"
+
+#: plugin-options/settings-options.php:65
+msgid "Search"
+msgstr "Търсене"
+
+#: plugin-options/settings-options.php:69
+msgid "Minimum number of characters"
+msgstr "Минимален брой символи"
+
+#: plugin-options/settings-options.php:70
+msgid "Minimum number of characters required to trigger autosuggest."
+msgstr ""
+"Минимален брой знаци, необходими за задействане на автоматичното предложение."
+
+#: plugin-options/settings-options.php:83
+msgid "Maximum number of results"
+msgstr "Минимален брой резултати"
+
+#: plugin-options/settings-options.php:84
+msgid "Maximum number of results showed within the autosuggest box."
+msgstr "Максимален брой резултати е показан в полето за автоматично подаване."
+
+#: plugin-options/settings-options.php:97
+msgid "Enable transients to cache autocomplete results"
+msgstr "Активиране на процеси за кеширане на резултатите от автодовършването"
+
+#: plugin-options/settings-options.php:98
+msgid "Save the results of a query in a transient"
+msgstr "Запазете резултатите от заявка в преходно състояние"
+
+#: plugin-options/settings-options.php:106
+msgid "Set the duration of transient"
+msgstr "Задайте продължителността на преход"
+
+#: plugin-options/settings-options.php:107
+msgid "(hours)"
+msgstr "(часове)"
+
+#: templates/admin/premium.php:251 templates/admin/premium.php:299
+msgid ""
+"Upgrade to the %1$spremium version%2$s%3$s of %1$sYITH WooCommerce Ajax "
+"Search%2$s to benefit from all features!"
+msgstr ""
+"Надстройте до %1$ премиум версия %2$s%3$s от %1$s YITH WooCommerce Ajax "
+"Search %2$s, за да се възползвате от всички функции!"
+
+#: templates/admin/premium.php:253 templates/admin/premium.php:301
+msgid "%1$sUPGRADE%2$s %3$sto the premium version%2$s"
+msgstr "%1$sUPGRADE%2$s %3$s до Премиум версията%2$s"
+
+#: templates/admin/premium.php:259
+msgid "Premium Features"
+msgstr "Премиум функции"
+
+#: templates/admin/premium.php:261
+msgid "HOW TO CUSTOMIZE THE RESULTS OF THE AUTOCOMPLETE"
+msgstr "КАК ДА СЕ ПОДБИРАТ РЕЗУЛАТИТЕ ЗА АВТО ДОПЪЛВАНЕТО"
+
+#: templates/admin/premium.php:263
+msgid "RESULTS OF THE AUTOCOMPLETE"
+msgstr "РЕЗУЛТАТИ ЗА АВТО ДОПЪЛВАНЕ"
+
+#: templates/admin/premium.php:268
+msgid "Show %1$sthe image%2$s of the product (left or right aligned)"
+msgstr "Показване %1$sснимката %2$s на продукта (ляво или дясно подравнена)"
+
+#: templates/admin/premium.php:269
+msgid "Enable the %1$sprice visualization%2$s"
+msgstr "Активиране на  %1$sвизуакизаци за цена%2$s"
+
+#: templates/admin/premium.php:270
+msgid "Show the %1$sproduct description%2$s"
+msgstr "Покажи %1$sописание на продукта%2$s"
+
+#: templates/admin/premium.php:271
+msgid "Tell to the client if the product is %1$son discount or is featured%2$s"
+msgstr "Покажи на клиента ако продукта %1$sе в промоция%2$s"
+
+#: templates/admin/premium.php:279
+msgid "HOW TO CUSTOMIZE THE SEARCH OPTIONS"
+msgstr "КАК ДА ИЗПОЛЗВАТЕ ВАРИАНТИТЕ ЗА ТЪРСЕНЕ"
+
+#: templates/admin/premium.php:283
+msgid "%1$sExtend the research%2$s in the excerpt and in the content"
+msgstr "%1$sДопълнително проучване %2$s в извадка и в съдържанието"
+
+#: templates/admin/premium.php:284
+msgid "%1$sActivate%2$s the category search"
+msgstr "%1$sАктивирай%2$s търсене в категориите"
+
+#: templates/admin/premium.php:285
+msgid "Configure the %1$stag%2$s search"
+msgstr "Настройки %1$sтърсене %2$s по тагове"
+
+#: templates/admin/premium.php:286
+msgid "Search a product with an %1$sID%2$s"
+msgstr "Търсене на продкту с %1$sID%2$s"
+
+#: templates/admin/premium.php:292
+msgid "SEARCH OPTIONS"
+msgstr "Настройки на търсене"
+
+#: templates/yith-woocommerce-ajax-search.php:18
+msgid "Search for:"
+msgstr "Търсене за:"
+
+#: widgets/class.yith-wcas-ajax-search.php:28
+msgid "An Ajax Search box for products only."
+msgstr "Поле за търсене на Ajax само за продукти."
+
+#: widgets/class.yith-wcas-ajax-search.php:30
+msgid "YITH WooCommerce Ajax Product Search"
+msgstr "YITH WooCommerce Търсене на продукти на Ajax"
+
+#: widgets/class.yith-wcas-ajax-search.php:89
+msgid "Title:"
+msgstr "Заглавие"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-ajax-search/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-ajax-search/"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Ajax Search</strong></code> is the plugin "
+"that allows you to search for a specific product by inserting a few "
+"characters. Thanks to <strong>Ajax Search</strong>, users can quickly find "
+"the contents they are interested in without wasting time among site pages. "
+"<a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for "
+"your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"<code> <strong> YITH WooCommerce Ajax Search </strong> </code> е "
+"приставката, която ви позволява да търсите конкретен продукт, като вмъкнете "
+"няколко знака. Благодарение на <strong> Ajax Search </strong>, потребителите "
+"могат бързо да намерят съдържанието, което ги интересува, без да губят време "
+"между страниците на сайта. <a href=\"https://yithemes.com/\" target=\"_blank"
+"\"> Получете още приставки за своя магазин за електронна търговия на "
+"<strong> YITH </strong> </a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"

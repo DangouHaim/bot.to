@@ -1,0 +1,22 @@
+.featured-search[max-width~="1000px"]  .form-group, .featured-search .filter-count-3 .form-group  {
+  width: calc(33.3% - 12px);
+  margin-right: 18px;
+}
+
+.featured-search[max-width~="1000px"]  .form-group:nth-child(3n), .featured-search .filter-count-3 .form-group:nth-child(3n)  {
+  margin-right: 0;
+}
+
+.featured-search[max-width~="750px"]  .form-group,  .featured-search .filter-count-2 .form-group {
+  width: calc(50% - 5px);
+  margin-right: 10px !important;
+}
+
+.featured-search[max-width~="750px"]  .form-group:nth-child(2n),  .featured-search .filter-count-2 .form-group:nth-child(2n) {
+  margin-right: 0 !important;
+}
+
+.featured-search[max-width~="550px"]  .form-group,  .featured-search .filter-count-1 .form-group {
+  width: 100%;
+  margin-right: 0 !important;
+}

@@ -1,0 +1,158 @@
+.bookmark-count {
+    position: relative;
+    top: 7px;
+}
+#play-video-modal iframe{
+    width: 100%;
+    height: 360px;
+}
+#play-video-modal video{
+    width: 100%;
+    height: 360px;
+}
+.lf-head.video-icon-on {
+	z-index:4;
+	top: 0px;
+	font-size: 26px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	display: flex;
+	justify-content: flex-end; 
+	padding: 15px;
+}
+#play-video-modal .modal-content{
+	padding: 20px;
+	display: flex;
+}
+.single-post-bookmark-counter {
+	float: right;
+	margin: 2px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.market-search.fixed {
+	position: absolute;
+    top: 200px;
+    z-index: 200;
+    width: 100%;
+}
+
+header.marketplace:not(.header-scroll) .header-skin {
+	opacity: 0;
+}
+
+.market-search form .yith-ajaxsearchform-container {
+	flex-wrap: wrap;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	max-width: 500px;
+	padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.market-search form .yith-ajaxsearchform-container > * {
+	flex-grow: 1;
+	margin: 10px;
+}
+
+.search-navigation input {
+	background: #fff;
+}
+
+#yith-searchsubmit {
+	position: relative;
+	max-width: 100px;
+	border-radius: 0;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.market-search form .yith-ajaxsearchform-container input[type="search"] {
+	width: 100%;
+	margin: 0;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	text-indent: 10px;
+}
+
+.market-search:not(.fixed) {
+	margin-top: 15px;
+	margin-bottom: -15px;
+}
+
+.market-search:not(.fixed) form .yith-ajaxsearchform-container {
+	max-width: 500px;
+}
+
+.marketplace-header {
+	min-height: 400px;
+}
+
+.tab-pane .form-group {
+	margin-bottom: 0 !important;
+}
+
+.yith-ajaxsearchform-select .search_categories.selectbox {
+	transition: all .2s;
+	width: 100%;
+    border: none;
+    margin-bottom: 0 !important;
+	border-bottom: solid 2px #e0e0e0;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	outline: none;
+	cursor: pointer;
+	color: #242429;
+}
+
+.yith-ajaxsearchform-select .search_categories.selectbox:focus {
+	border-bottom: solid 2px #8c28e2;
+}
+
+.yith-ajaxsearchform-select {
+	display: flex;
+	flex-direction: row;
+}
+
+.yith-ajaxsearchform-select:after {
+	content: "\e313";
+	font-size: 28px;
+	color: #8c28e2;
+	font-family: Material Icons!important;
+	position: relative;
+    left: -25px;
+    background: #fff;
+    height: 30px;
+	top: 4px;
+	pointer-events: none;
+	margin-right: -20px;
+}
+
+.yith-ajaxsearchform-select .search_categories.selectbox option {
+	color: #242429;
+}
+
+.sbf-title a {
+	font-weight: bold !important;
+}
+
+.main-buttons-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main-buttons-wrap a.load-more.elementor-button-link.elementor-button.elementor-size-sm {
+	margin-left: 0 !important;
+	margin: 10px !important;
+	flex-basis: 150px;
+    flex-grow: 1;
+}
