@@ -181,7 +181,18 @@ class Templates {
                             <div class="element">
                                 <div class="pf-head round-icon">
                                     <div class="title-style-1">
-                                        <?php echo c27()->get_icon_markup($page['icon']) ?>
+
+										<?php if ( ( get_the_title() == "Account Details" || esc_html( $page['title'] ) == "Account Details" ) && is_user_logged_in() ): $current_user = wp_get_current_user(); ?>
+											<div class="user-profile-dropdown">
+												<a class="user-profile-name" href="#">
+													<div class="avatar">
+														<?php echo get_avatar( $current_user->ID ) ?>
+													</div>
+												</a>
+											</div>
+										<?php else : ?>
+											<?php echo c27()->get_icon_markup($page['icon']) ?>
+										<?php endif ?>
                                         <h5><?php echo $page['title'] ? esc_html( $page['title'] ) : get_the_title() ?></h5>
                                     </div>
                                 </div>
