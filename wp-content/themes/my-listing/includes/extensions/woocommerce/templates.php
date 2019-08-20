@@ -193,6 +193,7 @@ class Templates {
 										<?php else : ?>
 											<?php echo c27()->get_icon_markup($page['icon']) ?>
 										<?php endif ?>
+										
                                         <h5><?php echo $page['title'] ? esc_html( $page['title'] ) : get_the_title() ?></h5>
                                     </div>
                                 </div>
