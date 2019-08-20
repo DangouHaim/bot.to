@@ -110,6 +110,7 @@ header.marketplace:not(.header-scroll) .header-skin {
 	outline: none;
 	cursor: pointer;
 	color: #242429;
+	background: #fff;
 }
 
 .yith-ajaxsearchform-select .search_categories.selectbox:focus {

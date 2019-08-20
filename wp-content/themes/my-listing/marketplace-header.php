@@ -31,11 +31,11 @@ $overlay_color   = c27()->get_setting( 'single_listing_cover_overlay_color', '#2
             <div class="col-md-6">
                 <div class="profile-name <?php echo esc_attr($tagline ? 'has-tagline' : 'no-tagline') ?>">
                     <?php if ($listing_logo) : ?>
-                        <a class="profile-avatar open-photo-swipe" href="#" style="pointer-events: none; background-image: url('<?php echo esc_url($listing_logo) ?>')"></a>
+                        <a class="profile-avatar" href="/marketplace/" style="background-image: url('<?php echo esc_url($listing_logo) ?>')"></a>
                     <?php endif ?>
 
                     <h1 class="case27-primary-text">
-                        Marketplace
+                        <a href="/marketplace/" style="color: #fff !important">Marketplace</a>
                         <span class="verified-badge" data-toggle="tooltip" data-title="<?php echo esc_attr(_x('Verified listing', 'Single listing', 'my-listing')) ?>">
                             <i class="fa fa-check"></i>
                         </span>
