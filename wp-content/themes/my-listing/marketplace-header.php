@@ -31,7 +31,7 @@ $overlay_color   = c27()->get_setting( 'single_listing_cover_overlay_color', '#2
             <div class="col-md-6">
                 <div class="profile-name <?php echo esc_attr($tagline ? 'has-tagline' : 'no-tagline') ?>">
                     <?php if ($listing_logo) : ?>
-                        <a class="profile-avatar" href="/marketplace/" style="background-image: url('<?php echo esc_url($listing_logo) ?>')"></a>
+                        <a class="profile-avatar" href="/marketplace/" style="background: transparent;background-image: url('<?php echo esc_url($listing_logo) ?>'); background-size: 80%; background-position: center; background-repeat: no-repeat;"></a>
                     <?php endif ?>
 
                     <h1 class="case27-primary-text">
