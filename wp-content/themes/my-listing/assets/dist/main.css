@@ -151,6 +151,10 @@ header.marketplace:not(.header-scroll) .header-skin {
 	flex-wrap: wrap;
 }
 
+.main-buttons-wrap .elementor-button-icon.elementor-align-icon-left {
+	float: none;
+}
+
 .main-buttons-wrap a.load-more.elementor-button-link.elementor-button.elementor-size-sm {
 	margin-left: 0 !important;
 	margin: 10px !important;
