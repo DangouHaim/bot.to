@@ -86,6 +86,11 @@ if ($data['scroll_border_color']) {
 			<div class="header-right">
 				<?php if ( is_user_logged_in() ): $current_user = wp_get_current_user(); ?>
 					<div class="user-area">
+						<a href="/my-account/">
+							<div class="avatar hidden-lg hidden-xl">
+								<?php echo get_avatar( $current_user->ID ) ?>
+							</div>
+						</a>
 						<div class="user-profile-dropdown dropdown">
 							<a class="user-profile-name" href="#" type="button" id="user-dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 								<div class="avatar">
