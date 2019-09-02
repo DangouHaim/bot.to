@@ -161,3 +161,9 @@ header.marketplace:not(.header-scroll) .header-skin {
 	flex-basis: 150px;
     flex-grow: 1;
 }
+
+.featured-search .fs-tabs .nav-tabs,
+.featured-search .fs-tabs .tab-content {
+	max-width: 800px;
+    margin: auto;
+}
