@@ -151,7 +151,7 @@ header.marketplace:not(.header-scroll) .header-skin {
 	flex-wrap: wrap;
 }
 
-.main-buttons-wrap .elementor-button-icon.elementor-align-icon-left {
+.elementor-button-icon.elementor-align-icon-left {
 	float: none;
 }
 
